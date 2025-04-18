@@ -1,0 +1,40 @@
+/* hero-basic */
+.herobasic {
+    height: 452px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e3e3e3;
+    background-image: url(/imgs/hero-basic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.column-title-container {
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.column-title-heading {
+    color: #C00F0C;
+    font-size: 72px;
+    font-weight: 700;
+    min-width: 858px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-title-subheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #F5F5F5;
+}
