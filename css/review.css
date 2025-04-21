@@ -12,11 +12,15 @@
 }
 
 .review-title-heading {
-    padding-top: 32px;
+    margin-top: 32px;
     margin-bottom: 38px;
 }
 
-.review-content .review-card-grid {
+.review-content {
+    margin-bottom: 50px;
+}
+
+.review-card-grid {
     display: flex;
     gap: 64px;
     margin-bottom: 50px;
@@ -88,4 +92,77 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+    .review-container {
+        margin-top: 32px;
+        margin-left: 49px;
+        margin-right: 0;
+    }
+
+    .review-content {
+        width: 670px;
+        height: 312px;
+        margin-bottom: 33.42px;
+    }
+
+    .review-card-grid {
+        gap: 30px;
+
+    }
+
+    .review-title-heading {
+        margin-top: 0;
+        margin-bottom: 32px;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .user-review {
+        width: 328px;
+        height: 228px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tablet {
+        width: 316px;
+        height: 228px;
+    }
+
+    .user-review-body {
+        width: 280px;
+        height: 72px;
+        margin: 20px;
+    }
+
+    .review-heading {
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .user-review-desc {
+        font-size: 12px;
+        width: 280px;
+    }
+
+    .user-review-avatar-container {
+        min-width: unset;
+        width: 280px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .user-review-heading {
+        font-size: 12px;
+    }
+
+    .user-reivew-date {
+        font-size: 12px;
+    }
 }

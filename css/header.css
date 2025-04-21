@@ -1,6 +1,5 @@
 /* Header */
 .main {
-    min-width: 1920px;
     width: 1920px;
 }
 
@@ -10,37 +9,22 @@
     padding-top: 48px;
     padding-bottom: 48px;
     z-index: 1;
-    position: relative;
     display: flex;
     background: linear-gradient(90deg, #f5c4c4, #83c3cb);
     justify-content: center;
     align-items: flex-start;
-
-    @media only screen and (max-width: 480px) {
-        
-    }
 }
 
-.header-top {
-    width: 1769px;
-    height: 80px;
-    margin-left: 75px;
-    margin-right: 76px;
-    margin-bottom: 59px;
-    display: flex;
-    justify-content: space-between;
+.list-icon-container {
+    display: none;
+    text-decoration: none;
     align-items: center;
-    gap: 20px;
+    justify-content: center;
 }
 
-.sub-header-top {
-    width: 1339px;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    gap: 125px;
-    margin-left: auto;
-    margin-right: auto;
+.list-icon {
+    width: 24px;
+    height: 24px;
 }
 
 .logo-sub {
@@ -51,15 +35,6 @@
     justify-content: center;
     gap: 23px;
     padding-left: 36px;
-}
-
-.header-logo-img {
-    width: 60px;
-    height: 60px;
-    margin-top: 49px;
-    margin-bottom: 69px;
-    padding-top: 10px;
-    object-fit: contain;
 }
 
 .logo-title {
@@ -90,15 +65,76 @@
     padding: 8px 48px;
 }
 
+.nav-link {
+    width: fit-content;
+    height: 36px;
+}
+
+.header-actions {
+    width: 308px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-right: 36px;
+}
+
+.header-action-icons {
+    width: 32px;
+    height: 32px;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+    .tablet-nav {
+        display: none !important;
+    }
+    
+    .menu-toggle {
+        display: none !important;
+    }
+
+    .logo-sub-nav {
+        display: none;
+    }
+
+}
+
+.header-top {
+    width: 1769px;
+    height: 80px;
+    margin-left: 75px;
+    margin-right: 76px;
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-header-top {
+    width: 1339px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 49px;
+    margin-bottom: 69px;
+    padding-top: 10px;
+    object-fit: contain;
+}
+
 .header-nav-item {
     display: flex;
     font-size: 20px;
     color: #1E1E1E;
-}
-
-.nav-link {
-    width: 159px;
-    height: 36px;
 }
 
 .ui {
@@ -111,17 +147,171 @@
     color: #1E1E1E;
 }
 
-.header-actions {
-    width: 308px;
-    height: 32px;
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    margin-right: 36px;
-}
-
 .header-actions-icons {
     width: 32px;
     height: 32px;
 }
 
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        height: 65px;
+        margin: 0;
+        padding: 0;
+        position: relative;;
+        background: linear-gradient(90deg, #f5c4c4, #83c3cb);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-icon-container {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin: 0;
+        justify-content: center;
+    }  
+
+    .logo-sub {
+        width: 168px;
+        height: 35px;
+        padding: 0;
+        gap: 21px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .logo-title {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 11.5px ;
+    }
+
+    .header-nav {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: auto;
+        height: 534px;
+        flex-direction: column;
+        background: linear-gradient(180deg, #f5c4c4, #83c3cb);
+        align-items: center;
+        z-index: 100;
+        border: 1px solid #1E1E1E;
+        border-radius: 0 10px 10px 0;
+        justify-content: unset;
+        gap: 0;
+    }
+
+    .logo-sub-nav {
+        width: 174px;
+        height: 60px;
+        display: flex;
+        margin-top: 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+        margin-bottom: 25px;
+    }
+
+    .logo-title-nav {
+        width: 111px;
+        height: 16px;
+        font-size: 16px;
+        color: #C00F0C;
+        font-weight: 700;
+    }
+
+    .header-logo-img-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-link-selected {
+        width: 228px;
+        height: 36px;
+        border-radius: 0;
+        padding: 16px 20px;
+        text-shadow: none;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+
+    .nav-link {
+        width: 228px;
+        height: 36px;
+        border-radius: 0;
+        padding: 16px 20px;
+        text-shadow: none;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .header-actions {
+        width: 200px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-right: 23px;
+    }
+
+    .header-top {
+        width: 713px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin: 0;
+    }
+
+    .sub-header-top {
+        width: 713px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 60px
+    }
+
+    .header-logo-img {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-nav-item {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .ui {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .header-nav-item {
+        font-size: 20px;
+    }
+
+    .header-action-icons {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .main {
+        width: 100%;
+    }
+}

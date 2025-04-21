@@ -38,3 +38,27 @@
     font-size: 32px;
     color: #F5F5F5;
 }
+
+@media only screen and (max-width: 768px) {
+    .herobasic {
+        height: 287px;
+        padding: 60px 20px;
+    }
+
+    .column-title-container {
+        height: auto;
+        text-align: center;
+    }
+
+    .column-title-heading {
+        font-size: 32px;
+        min-width: unset;
+        width: 100%;
+    }
+
+    .column-title-subheading {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 20px;
+    }
+}

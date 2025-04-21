@@ -4,24 +4,37 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/herobasic.css" />
+    <link rel="stylesheet" href="/css/subhero.css" />
+    <link rel="stylesheet" href="/css/product.css" />
+    <link rel="stylesheet" href="/css/review.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/chatbot.css" />
     <title>CRYBABY666</title>
-    <!-- <img src="" alt=""> -->
 </head>
 
 <body>
     <div class="main">
-        <!-- <div> -->
         <!-- Header section -->
         <header class="header">
             <div class="header-top">
                 <div class="sub-header-top">
+                    <a href="#" class="list-icon-container">
+                        <img src="/imgs/list.png" alt="Menu" class="list-icon" />
+                    </a>
                     <div class="logo-sub">
                         <img src="/imgs/header-logo.png" alt="HeaderLogo" class="header-logo-img" />
                         <p class="logo-title">CRYBABY666</p>
                     </div>
 
                     <ul class="header-nav">
+                        <div class="logo-sub-nav">
+                            <img src="/imgs/header-logo.png" alt="HeaderLogo" class="header-logo-img-nav" />
+                            <p class="logo-title-nav">CRYBABY666</p>
+                        </div>
+
                         <li>
                             <a href="#" class="nav-link-selected">
                                 <p class="header-nav-item">Giới thiệu</p>
@@ -35,19 +48,19 @@
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="#" class="nav-link">
                                 <p class="ui text-size">Danh mục</p>
                             </a>
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="#" class="nav-link">
                                 <p class="ui text-size">Thương hiệu</p>
                             </a>
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="#" class="nav-link">
                                 <p class="ui text-size">Hỗ trợ</p>
                             </a>
                         </li>
@@ -84,15 +97,13 @@
 
         <!-- Sub-hero section -->
         <div class="sub-hero">
-            <div class="img-gallery">
-                <div class="img-gallery row-container">
-                    <div class="img-gallery one">
-                        <img src="/imgs/first-sub-image.jpg" alt="Image" class="image-gallery image-one" />
-                    </div>
+            <div class="img-gallery row-container">
+                <div class="img-gallery one">
+                    <img src="/imgs/first-sub-image.jpg" alt="Image" class="image-gallery image-one" />
+                </div>
 
-                    <div class="img-gallery two">
-                        <img src="/imgs/second-sub-image.jpg" alt="Image" class="image-gallery image-two" />
-                    </div>
+                <div class="img-gallery two">
+                    <img src="/imgs/second-sub-image.jpg" alt="Image" class="image-gallery image-two" />
                 </div>
             </div>
         </div>
@@ -197,7 +208,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="product-card-pic">
+                                    <button class="chervon-button">
+                                        <img src="/imgs/chevron-right.png" alt="Chervon right" class="chervon-right-icon" />
+                                    </button>
+
+                                    <div class="product-card-pic hidden">
                                         <img src="/imgs/product-3.jpg" alt="Legion Table" class="product-pic" />
                                         <div class="product-card-content">
                                             <h3 class="product-card-heading">Crimson Table</h3>
@@ -210,7 +225,7 @@
                             </div>
 
                             <!-- Pagination first row -->
-                            <div class="pagination-first-row">
+                            <div class="pagination-first-row hidden">
                                 <div class="pagination-prev">
                                     <img src="/imgs/previous.png" alt="Previous" class="pagination-icon" />
                                     <p class="pagination-heading-prev">Trước đó</p>
@@ -272,7 +287,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="product-card-pic">
+                                    <div class="product-card-pic hidden">
                                         <img src="/imgs/product-6.jpg" alt="Sari Louge Chair" class="product-pic" />
                                         <div class="product-card-content">
                                             <h3 class="product-card-heading">Sari Louge Chair</h3>
@@ -286,7 +301,7 @@
                             </div>
 
                             <!-- Pagination second row -->
-                            <div class="pagination-second-row">
+                            <div class="pagination-second-row hidden">
                                 <div class="pagination-prev">
                                     <img src="/imgs/previous.png" alt="Previous" class="pagination-icon" />
                                     <p class="pagination-heading-prev">Trước đó</p>
@@ -353,7 +368,7 @@
 
                                 <div class="user-review-avatar-container">
                                     <img src="/imgs/avatar.png" alt="Avatar" class="user-review-avatar" />
-                                    <div class="user-reew-info">
+                                    <div class="user-review-info">
                                         <h4 class="user-review-heading">Đàm Đạt</h4>
                                         <p class="user-reivew-date">15/04/2025</p>
                                     </div>
@@ -361,7 +376,7 @@
                             </div>
 
                             <!-- User review 2 -->
-                            <div class="user-review">
+                            <div class="user-review tablet">
                                 <div class="pag-item-1">
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
@@ -386,7 +401,7 @@
                             </div>
 
                             <!-- User review 3 -->
-                            <div class="user-review">
+                            <div class="user-review hidden">
                                 <div class="pag-item-1">
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
