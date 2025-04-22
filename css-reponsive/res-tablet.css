@@ -1,0 +1,566 @@
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .main {
+        min-width: 768px;
+    }
+
+    .header {
+        height: 65px;
+        margin: 0;
+        padding: 0;
+        position: relative;;
+        background: linear-gradient(90deg, #f5c4c4, #83c3cb);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-icon-container {
+        display: flex;
+        width: 35px;
+        height: 35px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin: 0;
+        justify-content: center;
+    }  
+
+    .logo-sub {
+        width: 168px;
+        height: 35px;
+        padding: 0;
+        gap: 21px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .logo-title {
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 11.5px ;
+    }
+
+    .header-nav {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: auto;
+        height: 534px;
+        flex-direction: column;
+        background: linear-gradient(180deg, #f5c4c4, #83c3cb);
+        align-items: center;
+        z-index: 100;
+        border: 1px solid #1E1E1E;
+        border-radius: 0 10px 10px 0;
+        justify-content: unset;
+        gap: 0;
+    }
+
+    .logo-sub-nav {
+        width: 174px;
+        height: 60px;
+        display: flex;
+        margin-top: 35px;
+        justify-content: center;
+        align-items: center;
+        gap: 23px;
+        margin-bottom: 25px;
+    }
+
+    .logo-title-nav {
+        width: 111px;
+        height: 16px;
+        font-size: 16px;
+        color: #C00F0C;
+        font-weight: 700;
+    }
+
+    .header-logo-img-nav {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-link-selected {
+        width: 228px;
+        height: 36px;
+        border-radius: 0;
+        padding: 16px 20px;
+        text-shadow: none;
+        justify-content: center;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        margin-bottom: 50px;
+    }
+
+    .chervon-right-button, .chervon-left-button, .chervon-right-button-2, .chervon-left-button-2, .chervon-right-button-rv, .chervon-left-button-rv {
+        display: none;
+    }
+
+    .nav-link {
+        width: 228px;
+        height: 36px;
+        border-radius: 0;
+        padding: 16px 20px;
+        text-shadow: none;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .header-actions {
+        width: 200px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-right: 0;
+    }
+
+    .header-top {
+        max-width: 736px;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        margin: 0;
+        margin-left: 32px;
+        padding-right: 32px;
+    }
+
+    .sub-header-top {
+        max-width: 263px;
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 60px;
+        margin-left: 0;
+    }
+
+    .header-logo-img {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-nav-item {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .ui {
+        font-size: 20px;
+        padding: 0;
+    }
+
+    .header-nav-item {
+        font-size: 20px;
+    }
+
+    .header-action-icons {
+        width: 20px;
+        height: 20px;
+    }
+
+    .herobasic {
+        height: 287px;
+        padding: 60px 20px;
+    }
+
+    .column-title-container {
+        height: auto;
+        text-align: center;
+    }
+
+    .column-title-heading {
+        font-size: 32px;
+        min-width: unset;
+        width: 100%;
+    }
+
+    .column-title-subheading {
+        font-size: 20px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .sub-hero {
+        width: 100%;
+        height: 226px;
+    }
+
+    .row-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .one {
+        width: 296px;
+        height: 162px;
+    }
+
+    .two {
+        width: 296px;
+        height: 162px;
+    }
+
+    .image-one,
+    .image-two {
+        width: 296px;
+        height: 162px;
+        object-fit: cover;
+    }
+
+    .product-container {
+        width: 100%;
+        height: 863px;
+        margin: 0;
+        padding-top: 32px;
+        padding-left: 64px;
+    }
+
+    .row-heading-list {
+        width: 640px;
+    }
+
+    .column-container-heading {
+        width: 146px;
+        height: 51px;
+        margin-bottom: 32px;
+    }
+
+    .column-product-first-row,
+    .column-product-second-row {
+        width: 640px;
+        height: 342px;
+        display: flex;
+        flex-direction: column;
+        overflow: unset;
+    }
+
+    .column-product-second-row{
+        margin-top: 32px;
+    }
+
+    .product-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #1E1E1E;
+        margin: 0;
+    }
+
+    .product-subtitle {
+        font-size: 16px;
+        color: #7E7E7E;
+        margin: 4px 0 0;
+    }
+
+    .product-cards {
+        width: 640px;
+        height: 342px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .product-card-list {
+        width: 640px;
+        height: 342px;
+        margin: 0;
+        gap: 30px;
+    }
+
+    .product-card-pic {
+        width: 305px;
+        height: 342px;
+        padding: 24px;
+        align-items: unset;
+        flex-direction: column;
+        overflow: unset;
+    }
+
+    /* .chervon-button{
+        display: block;
+        width: 30px;
+        height: 30px;
+    } */
+
+    .product-pic {
+        width: 160px;
+        height: 160px;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+
+    .product-card-content {
+        width: 257px;
+        height: 110px;
+        padding: 0;
+    }
+
+    .product-card-heading {
+        font-size: 14px;
+    }
+
+    .product-card-desc {
+        font-size: 12px;
+    }
+
+    .review-container {
+        margin-top: 32px;
+        margin-left: 49px;
+        margin-right: 0;
+    }
+
+    .review-content {
+        width: 670px;
+        height: 312px;
+        margin-bottom: 33.42px;
+    }
+
+    .review-card-grid {
+        gap: 30px;
+
+    }
+
+    .review-title-heading {
+        margin-top: 0;
+        margin-bottom: 32px;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .user-review {
+        width: 328px;
+        height: 228px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tablet {
+        width: 316px;
+        height: 228px;
+    }
+
+    .user-review-body {
+        width: 280px;
+        height: 72px;
+        margin: 20px;
+    }
+
+    .review-heading {
+        width: max-content;
+        font-size: 14px;
+    }
+
+    .user-review-desc {
+        font-size: 12px;
+        width: 280px;
+    }
+
+    .user-review-avatar-container {
+        min-width: unset;
+        width: 280px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .user-review-heading {
+        font-size: 12px;
+    }
+
+    .user-reivew-date {
+        font-size: 12px;
+    }
+
+    .chat-box-mini-container{
+        width: 50px;
+        height: 50px;
+        right: 20px;
+    }
+
+    .chat-box-mini {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+    }
+    
+    .chat-box {
+        width: 383px;
+        height: 714px;
+        border-radius: 16px;
+    }
+
+    .chat-box-profile {
+        height: 86.99px;
+        gap: 20px;
+    }
+
+    .chat-box-profile-data {
+        width: 177px;
+        height: 48px;
+        margin-left: 24px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .avatar-profile {
+        width: 48px;
+        height: 48px;
+        font-size: 16px;
+        border-bottom: 1px solid #E6EAEE;
+    }
+
+    .profile-info {
+        width: 117px;
+        height: 34px;
+    }
+
+    .profile-name {
+        font-size: 14px;
+    }
+
+    .profile-desc {
+        font-size: 12px;
+    }
+
+    .server-mess-1 {
+        width: 289px;
+        height: 66px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .server-mess-2 {
+        width: 302px;
+        height: 83px;
+        font-size: 14px;   
+    }
+
+    .client-mess {
+        width: 267px;
+        height: 66px;
+        font-size: 14px;
+        margin-right: 17px;
+        margin-top: 9px;
+        margin-bottom: 35px;
+    }
+
+    .chat-box-mess {
+        margin-left: 13.5px;
+        margin-right: 13.5px;
+    }
+
+    .chat-box-image {
+        width: 182px;
+        height: 156px;
+        margin-right: 17px;
+        margin-top: 0;
+        margin-bottom: 41px;
+    }
+
+    .input-chat {
+        width: 342px;
+        margin-top: 67px;
+        margin-right: 20px;
+        margin-left: 21px;
+    }
+
+    .chat-box-input {
+        width: 261px;
+        height: 57px;
+        justify-content: unset;
+        gap: unset;
+    }
+
+    .chat-box-input-text {
+        font-size: 14px;
+        width: fit-content;
+        margin-left: 11px;
+    }
+
+    .chat-box-input-icon {
+        margin-left: 50px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .chat-box-input-send {
+        width: 64px;
+        height: 57px;
+        background-color: #EDEFF1;
+    }
+
+    .chat-box-input-send img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .attach-file {
+        width: 25px;
+        height: 25px;
+        margin-left: 26px;
+        margin-right: 11px;
+    }
+
+    .chat-wrapper {
+        right: 22px;
+        top: auto;
+        bottom: 100px;
+        width: 383px;
+        height: 802px;
+        gap: unset;
+    }
+
+    .chat-subbox-zalo {
+        width: 383px;
+        height: 88px;
+    }
+
+    .chat-box-zalo-subbox-info {
+        width: 336px;
+        height: 50px;
+    }
+
+    .chat-box-zalo-subbox-heading {
+        width: 252px;
+        height: 50px;
+        font-size: 14px;
+        padding-left: 10.5px;
+        border-radius: 10px;
+    }
+
+    .chat-box-zalo-subbox-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .chat-box-zalo-subbox-icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 165px;
+    }
+
+    .footer-items {
+        padding-top: 35px;
+        margin-left: 30px;
+    }
+
+    .footer-info-list {
+        padding-top: 30px;
+        margin-bottom: 42.67px;
+        display: flex;
+        gap: 16px;
+    }
+}

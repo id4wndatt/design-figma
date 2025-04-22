@@ -1,16 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
     const chatWrapper = document.getElementById("chatWrapper");
     const chatToggleBtn = document.getElementById("chatToggle");
+    const mainWrapper = document.getElementsByClassName("main")[0]; // Sửa ở đây
     let isChatOpen = false;
 
     if (chatToggleBtn) {
         chatToggleBtn.addEventListener("click", function () {
             isChatOpen = !isChatOpen;
 
-            chatWrapper.style.display = isChatOpen ? "flex" : "none";
+            if (chatWrapper) {
+                chatWrapper.style.display = isChatOpen ? "flex" : "none";
+            }
 
             const isTablet = window.innerWidth <= 768;
+            const isMobile = window.innerWidth <= 480;
 
+            // if (isMobile) {
+            //     if (mainWrapper) {
+            //         mainWrapper.style.display = isChatOpen ? "none" : "block";
+            //     }
+            // } else 
             if (isTablet) {
                 chatToggleBtn.style.right = isChatOpen ? "420px" : "20px";
                 chatWrapper.style.top = isChatOpen ? "60px" : "20px";

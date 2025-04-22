@@ -4,14 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/index.css" />
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/herobasic.css" />
-    <link rel="stylesheet" href="/css/subhero.css" />
-    <link rel="stylesheet" href="/css/product.css" />
-    <link rel="stylesheet" href="/css/review.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/chatbot.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/css-reponsive/res-tablet.css" />
+    <link rel="stylesheet" href="/css-reponsive/res-mobile.css" />
+
     <title>CRYBABY666</title>
 </head>
 
@@ -177,6 +173,15 @@
         <!-- Product section -->
         <div class="product">
             <div class="product-container">
+
+                <button class="chervon-right-button">
+                    <img src="/imgs/chevron-right.png" alt="Chervon right" class="chervon-right-icon" />
+                </button>
+    
+                <button class="chervon-left-button">
+                    <img src="/imgs/chevron-left.png" alt="Chervon left" class="chervon-left-icon" />
+                </button>
+
                 <div class="row-heading-list">
                     <div class="column-container">
                         <div class="column-container-heading">
@@ -198,7 +203,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="product-card-pic">
+                                    <div class="product-card-pic hidden-m">
                                         <img src="/imgs/product-2.jpg" alt="Legion Table" class="product-pic" />
                                         <div class="product-card-content">
                                             <h3 class="product-card-heading">Legion Table</h3>
@@ -207,10 +212,6 @@
                                                 điệu, mang đến sự đổi mới cho chính căn phòng của bạn.</p>
                                         </div>
                                     </div>
-
-                                    <button class="chervon-button">
-                                        <img src="/imgs/chevron-right.png" alt="Chervon right" class="chervon-right-icon" />
-                                    </button>
 
                                     <div class="product-card-pic hidden">
                                         <img src="/imgs/product-3.jpg" alt="Legion Table" class="product-pic" />
@@ -277,7 +278,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="product-card-pic">
+                                    <div class="product-card-pic hidden-m">
                                         <img src="/imgs/product-5.jpg" alt="Desmond Chair" class="product-pic" />
                                         <div class="product-card-content">
                                             <h3 class="product-card-heading">Desmond Chair</h3>
@@ -339,11 +340,28 @@
                         </div>
                     </div>
                 </div>
+
+                <button class="chervon-right-button-2">
+                    <img src="/imgs/chevron-right.png" alt="Chervon right" class="chervon-right-icon" />
+                </button>
+    
+                <button class="chervon-left-button-2">
+                    <img src="/imgs/chevron-left.png" alt="Chervon left" class="chervon-left-icon" />
+                </button>
             </div>
         </div>
 
         <!-- Reviews section -->
         <div class="review-section">
+
+            <button class="chervon-right-button-rv">
+                <img src="/imgs/chevron-right.png" alt="Chervon right" class="chervon-right-icon" />
+            </button>
+
+            <button class="chervon-left-button-rv">
+                <img src="/imgs/chevron-left.png" alt="Chervon left" class="chervon-left-icon" />
+            </button>
+
             <div class="review-container">
                 <div class="review-column">
                     <h2 class="review-title-heading">Đánh giá gần nhất</h2>
@@ -376,7 +394,7 @@
                             </div>
 
                             <!-- User review 2 -->
-                            <div class="user-review tablet">
+                            <div class="user-review tablet hidden-m">
                                 <div class="pag-item-1">
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
                                     <img src="/imgs/star.png" alt="Star" class="user-reivew-star" />
@@ -427,7 +445,7 @@
                         </div>
 
                         <!-- Reivew pagination -->
-                        <div class="pagination-review">
+                        <div class="pagination-review hidden">
                             <div class="pagination-list">
                                 <button class="pagination-button">1</button>
 

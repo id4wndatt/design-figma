@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* main-css */
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: normal;
+    font-family: 'Inter';
+    margin: unset;
+}
+
+
+a {
+    text-decoration: none;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    margin-inline: unset !important;
+    padding: 0;
+    list-style: none;
+}
+
+/* Header */
+.main {
+    min-width: 1920px;
+    width: 100%;
+    display: block;
+}
+
+
+.header {
+    width: 100%;
+    height: 178px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    z-index: 1;
+    display: flex;
+    background: linear-gradient(90deg, #f5c4c4, #83c3cb);
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.list-icon-container {
+    display: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.chervon-right-button, .chervon-left-button, .chervon-right-button-2, .chervon-left-button-2, .chervon-right-button-rv, .chervon-left-button-rv {
+    display: none;
+}
+
+.list-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-sub {
+    width: 25.44%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    padding-left: 36px;
+}
+
+.logo-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #C00F0C;
+    margin-top: 59px;
+    margin-bottom: 69px;
+}
+
+.logo-sub-nav {
+    display: none;
+}
+
+.header-nav {
+    width: 60.59%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding-right: 3px;
+}
+
+.nav-link-selected {
+    width: 186px;
+    height: 36px;
+    background-color: #f5f5f5;
+    text-shadow: 0px 4px 10px #0000003f;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 8px 48px;
+}
+
+.nav-link {
+    width: fit-content;
+    height: 36px;
+}
+
+.header-actions {
+    width: 17.41%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.header-action-icons {
+    width: 32px;
+    height: 32px;
+}
+
+.header-top {
+    width: 92.14%;
+    height: 80px;
+    margin-left: 75px;
+    margin-right: 76px;
+    margin-bottom: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-header-top {
+    width: 79.76%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 49px;
+    margin-bottom: 69px;
+    padding-top: 10px;
+    object-fit: contain;
+}
+
+.header-nav-item {
+    display: flex;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+
+.ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1E1E1E;
+}
+
+.header-actions-icons {
+    width: 32px;
+    height: 32px;
+}
+
+/* hero-basic */
+.herobasic {
+    width: 100%;
+    height: 452px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e3e3e3;
+    background-image: url(/imgs/hero-basic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.column-title-container {
+    height: 132px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.column-title-heading {
+    color: #C00F0C;
+    font-size: 72px;
+    font-weight: 700;
+    min-width: 858px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-title-subheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #F5F5F5;
+}
+
+/* sub-hero */
+.sub-hero {
+    height: 478px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.row-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    flex: 0 0 auto;
+    height: 100%;
+    margin-left: 64px;
+    margin-right: 48px;
+}
+
+.two {
+    flex: 1;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 64px;
+}
+
+.image-one,
+.image-two {
+    width: 872px;
+    height: 414px;
+    object-fit: cover;
+    display: block;
+}
+
+/* product-section */
+.product {
+    background: #fff;
+}
+
+.product-container {
+    margin: 32px 64px;
+}
+
+.column-container-heading {
+    margin-bottom: 40px;
+}
+
+.product-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin: 0;
+}
+
+.product-subtitle {
+    font-size: 18px;
+    color: #7E7E7E;
+    margin: 4px 0 0;
+}
+
+/* card-grid */
+.column-product-first-row .product-cards,
+.column-product-second-row .product-cards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.product-card-list {
+    display: flex;
+    width: 100%;
+    gap: 48px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+/* main-card */
+.product-card-pic {
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex: 0 0 auto;
+    width: 565.33px;
+    height: 208px;
+    display: flex;
+    align-items: center;
+}
+
+.product-pic {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-left: 24px;
+}
+
+.product-card-content {
+    padding: 24px 24px 37px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product-card-heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    color: #1E1E1E;
+}
+
+.product-card-desc {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4F4F4F;
+}
+
+.chervon-button{
+    display: none;
+}
+
+/* pagination*/
+.pagination-first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.pagination-second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32.35px;
+}
+
+.pagination-prev {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.pagination-next {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.pagination-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.pagination-heading-prev {
+    font-size: 16px;
+    color: #757575;
+}
+
+.pagination-heading-next{
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.pagination-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pagination-button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: #1E1E1E;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-items .pag-item {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pagination-gap .pag-gap-text {
+    font-size: 16px;
+    color: #333;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* review-section */
+.review-section {
+    background: #fff;
+}
+
+.review-container {
+    margin: 32px 64px;
+}
+
+.review-column {
+    margin-bottom: 40px;
+}
+
+.review-title-heading {
+    margin-top: 32px;
+    margin-bottom: 38px;
+}
+
+.review-content {
+    margin-bottom: 50px;
+}
+
+.review-card-grid {
+    display: flex;
+    gap: 64px;
+    margin-bottom: 50px;
+}
+
+.user-review {
+    width: 554.67px;
+    height: 239px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pag-item-1 {
+    display: flex;
+    gap: 4px;
+    width: 116px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.user-review-body {
+    width: 506.67px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.user-review-desc {
+    width: 506.67px;
+    margin-top: 4px;
+}
+
+.user-review-avatar-container {
+    min-width: 506.67px;
+    width: 506.67px;
+    height: 46px;
+    display: flex;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.user-review-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-review-info {
+    width: 454.67px;
+    height: 46px;
+    padding-left: 12px;
+}
+
+.user-reivew-date {
+    color: #B3B3B3;
+    padding-top: 2px;
+}
+
+.user-review-heading {
+    color: #757575;
+}
+
+/* pagination-review */
+.pagination-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+/* footer-section */
+.footer {
+    width: 100%;
+    height: 198.23px;
+    background: #1E1E1E;
+}
+
+.footer-items {
+    padding-top: 69px;
+    margin-left: 64px;
+}
+
+.footer-info-list {
+    padding-top: 32.59px;
+    margin-bottom: 41.9px;
+    display: flex;
+    gap: 16px;
+}
+
+/* chat-box */
+.chat-box-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box {
+    background: #FFFFFF;
+    width: 480px;
+    height: 714px;
+    border-radius: 24px;
+    border: #FFFFFF;
+}
+
+.chat-box-profile {
+   height: 98px; 
+   border-bottom: 1px solid #FFFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 113px;
+}
+
+.chat-box-profile-data {
+    display: flex;
+    margin-left: 24px;
+    gap: 12px;
+}
+
+.avatar-profile {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    background: #0047FF;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profile-name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.profile-desc {
+    font-size: 16;
+    color: #8A8989;
+}
+
+.chat-box-actions {
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+/* chat-box-content */
+.server-mess-1 {
+    background: #EDEFF1;
+    width: 400px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 12px 0;
+    margin-top: 5px;
+    margin-left: 24px;
+}
+
+.server-mess-2 {
+    background: #EDEFF1;
+    width: 375px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 12px 0;
+    margin-left: 24px;
+    padding-left: 10px;
+}
+
+.client-mess{
+    width: 312px;
+    height: 70px;
+    display: flex;
+    background-color: #0047FF;
+    align-items: center;
+    justify-self: flex-end;
+    justify-content: center;
+    border-radius: 12px 12px 0 12px;
+    margin-top: 24px;
+    margin-right: 24px;
+    margin-bottom: 31px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #FFFFFF;
+}
+
+.chat-box-image {
+    width: 250px;
+    height: 156px;
+    display: flex;
+    justify-self: flex-end; 
+    object-fit: cover;   
+    border-radius: 12px 0 12px 12px;
+    margin-top: 31px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+/* chat-box-input */
+.input-chat {
+    width: 432px;
+    height: 64px;
+    display: flex;
+    margin-top: 78px;
+    margin-left: 24px;
+}
+
+.chat-box-input {
+    width: 351px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EDEFF1;
+    gap: 18.5px;
+    border-radius: 16px;
+
+}
+
+.chat-box-input-text {
+    width: 202px;
+    height: 18px;
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+    color: #8A8989;
+}
+
+.chat-box-input-icon {
+    display: flex;
+}
+
+.attach-file {
+    margin-right: 24px;
+}
+
+.chat-box-input-send {
+    width: 64px;
+    height: 64px;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF; 
+    border-radius: 16px;
+    border-style: none;
+}
+
+.chat-box-input-send img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* subbox-zalo */
+.chat-subbox-zalo{
+    width: 480px;
+    height: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+
+.chat-box-zalo-subbox-info {
+    width: 422px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px
+}
+
+.chat-box-zalo-subbox-heading {
+    width: 336px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 18px;
+    background-color: #9FD2FB;
+}
+
+.chat-box-zalo-subbox-icon {
+    width: 80px;
+    height: 80px;
+    background: #EBF6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.chat-box-zalo-icon{
+    width: 50px;
+    height: 50px;
+}
+
+/* Mini-chat-icon */
+.chat-box-mini {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chat-box-mini-container {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 70px;
+    height: 70px;
+    z-index: 1001;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    display: flex;
+}
+
+/* chat-wrapper-main */
+.chat-wrapper {
+    position: fixed;
+    right: 79px;
+    top: 600px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+}
