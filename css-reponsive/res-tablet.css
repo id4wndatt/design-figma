@@ -21,7 +21,13 @@
         border-radius: 4px;
         margin: 0;
         justify-content: center;
+        cursor: pointer;
+        transition: transform 0.2s ease;
     }  
+
+    .list-icon-container:hover {
+        transform: scale(1.1);
+    }
 
     .logo-sub {
         width: 168px;
@@ -44,7 +50,7 @@
         position: absolute;
         top: 65px;
         left: 0;
-        width: auto;
+        width: 228px;
         height: 534px;
         flex-direction: column;
         background: linear-gradient(180deg, #f5c4c4, #83c3cb);
@@ -54,6 +60,11 @@
         border-radius: 0 10px 10px 0;
         justify-content: unset;
         gap: 0;
+    }
+
+    .header-nav li {
+        width: 228px;
+
     }
 
     .logo-sub-nav {
@@ -169,6 +180,10 @@
         padding: 60px 20px;
     }
 
+    .herobasic > .column-title-container {
+        z-index: unset;
+    }
+
     .column-title-container {
         height: auto;
         text-align: center;
@@ -189,6 +204,7 @@
     .sub-hero {
         width: 100%;
         height: 226px;
+        background-color: #D9D9D9;
     }
 
     .row-container {
@@ -241,6 +257,7 @@
     }
 
     .column-product-second-row{
+        display: flex;
         margin-top: 32px;
     }
 
@@ -262,10 +279,6 @@
         height: 342px;
     }
 
-    .hidden {
-        display: none;
-    }
-
     .product-card-list {
         width: 640px;
         height: 342px;
@@ -282,12 +295,6 @@
         overflow: unset;
     }
 
-    /* .chervon-button{
-        display: block;
-        width: 30px;
-        height: 30px;
-    } */
-
     .product-pic {
         width: 160px;
         height: 160px;
@@ -298,7 +305,7 @@
     .product-card-content {
         width: 257px;
         height: 110px;
-        padding: 0;
+        margin: 0;
     }
 
     .product-card-heading {
@@ -309,14 +316,18 @@
         font-size: 12px;
     }
 
+    .desc-y, .desc-i {
+        text-align: justify;
+    }
+
     .review-container {
         margin-top: 32px;
-        margin-left: 49px;
+        margin-left: 46.5px;
         margin-right: 0;
     }
 
     .review-content {
-        width: 670px;
+        width: 675px;
         height: 312px;
         margin-bottom: 33.42px;
     }
@@ -362,7 +373,7 @@
 
     .user-review-desc {
         font-size: 12px;
-        width: 280px;
+        width: 268px;
     }
 
     .user-review-avatar-container {
@@ -379,6 +390,20 @@
     .user-reivew-date {
         font-size: 12px;
     }
+
+    .pagination-review {
+        width: 276px;
+        height: 34.58px;
+        margin: 0 197px 0 197px;
+    }
+    
+    .pagination-review .pagination-list {
+        width: 276px;
+        height: 34.58px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+    }    
 
     .chat-box-mini-container{
         width: 50px;
